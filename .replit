@@ -1,4 +1,5 @@
 run = "pytest test_*.py"
+language = "python3"
 entrypoint = "fizzbuzz.py"
 hidden = ["LICENSE", "venv", ".config", ".gitignore", "**/__pycache__", "**/.pytest_cache", "**/*.pyc"]
 
