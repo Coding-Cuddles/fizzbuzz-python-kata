@@ -37,10 +37,6 @@ FizzBuzz
 
 ## Usage
 
-This is a bootstrap repository for clean code katas in Python 3.
-
-## Usage
-
 You can import this project into [Replit](https://replit.com)
 and it will handle all dependencies automatically.
 
@@ -52,11 +48,11 @@ and it will handle all dependencies automatically.
 ### Run main
 
 ```console
-./fizzbuzz
+./fizzbuzz.py
 ```
 
 ### Run tests
 
 ```console
-pytest test_something.py
+pytest test_*.py
 ```

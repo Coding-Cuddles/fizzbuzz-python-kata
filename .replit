@@ -1,6 +1,5 @@
-run = ["pytest", "test_something.py"]
-language = "python3"
-entrypoint = "test_something.py"
+run = "pytest test_*.py"
+entrypoint = "fizzbuzz.py"
 hidden = ["LICENSE", "venv", ".config", ".gitignore", "**/__pycache__", "**/.pytest_cache", "**/*.pyc"]
 
 [nix]
@@ -16,4 +15,3 @@ start = "pylsp"
 
 [debugger]
 support = false
-
