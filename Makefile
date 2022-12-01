@@ -1,7 +1,11 @@
 .PHONY: run
 run:
-	@./fizzbuzz.py
+	./main.py
 
 .PHONY: test
 test:
-	@pytest test_*.py
+	pytest test_*.py
+
+ifndef VERBOSE
+.SILENT:
+endif

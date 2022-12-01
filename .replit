@@ -1,6 +1,6 @@
 run = ["make", "test"]
 language = "python3"
-entrypoint = "fizzbuzz.py"
+entrypoint = "main.py"
 hidden = ["LICENSE", "venv", ".config", ".gitignore", "**/__pycache__", "**/.pytest_cache", "**/*.pyc"]
 
 [nix]
