@@ -27,7 +27,7 @@ Write a program to print the first 100 FizzBuzz numbers, separated by newlines:
 
 #### Sample output
 
-```
+```text
 1
 2
 Fizz
@@ -65,7 +65,7 @@ Follow the same rules as the canonical version with these additional rules:
 
 #### Sample output
 
-```
+```text
 ...
 86
 Fizz
